@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   get 'pages/index2'
 
-  get 'posts/show'
+  resources :posts
 
   get 'aboutshow' => "about#show"
 
