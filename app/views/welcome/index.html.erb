@@ -1,5 +1,7 @@
 <% provide(:title,"Home") %>
 <h1>Welcome to my website</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
-Visit <%= link_to "about page", about_path %>
+<p> <%= link_to "Show all people", people_path %></p>
+<p> <%= link_to "Add new person", new_person_path %></p>
+<p> <%= link_to "about page", about_path %></p>
 Click here to go to <%= link_to "pages_test2/index", pages_test2_index_path %>
