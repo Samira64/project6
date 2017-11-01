@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :people
   root 'welcome#index'
 
   get 'pagestest5/show'
